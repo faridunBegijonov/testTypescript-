@@ -13,3 +13,12 @@ var users = [{ name: 'Faridun', age: 16 }, { name: 'Farukh', age: 26 }];
 var car = ['Hello', 10];
 car.push(20);
 console.log(car);
+var names = ['Faridun', 'Farukh'];
+// names[0] = 'Shoh';
+// const tuples: [number, string, ...boolean[]] = [1, 'Faridun', true, false];
+var StatusCode;
+(function (StatusCode) {
+    StatusCode["MESSAGE"] = "Welcome";
+    StatusCode["STATUS"] = "404";
+})(StatusCode || (StatusCode = {}));
+console.log(StatusCode.STATUS);

@@ -26,3 +26,11 @@ const names: readonly string[] = ['Faridun', 'Farukh'];
 // names[0] = 'Shoh';
 
 // const tuples: [number, string, ...boolean[]] = [1, 'Faridun', true, false];
+
+
+enum StatusCode {
+    MESSAGE = "Welcome",
+    STATUS = "404"
+}
+
+console.log(StatusCode.STATUS)
