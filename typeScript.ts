@@ -21,3 +21,8 @@ const users: IUser[] = [{name: 'Faridun', age: 16}, {name: 'Farukh', age: 26}];
 const car: [string, number] = ['Hello', 10];
 car.push(20);
 console.log(car)
+
+const names: readonly string[] = ['Faridun', 'Farukh'];
+// names[0] = 'Shoh';
+
+// const tuples: [number, string, ...boolean[]] = [1, 'Faridun', true, false];
